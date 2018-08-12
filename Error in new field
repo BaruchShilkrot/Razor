@@ -1,0 +1,7 @@
+I tried to run command Add-Migration Rating. I got a message: 
+Unable to create an object of type 'RazorPagesMovieContext'. Add an implementation of 'IDesignTimeDbContextFactory<RazorPagesMovieContext>' to the project, or see https://go.microsoft.com/fwlink/?linkid=851728 for additional patterns supported at design time.
+I went to the site and added class BloggingContextFactory to Program.cs. After some corrections command Add-Migration Rating worked good.
+Thank you for very good tutorial.
+Baruch Shilkrot
+Israel
+shilkrot@negba.org.il
